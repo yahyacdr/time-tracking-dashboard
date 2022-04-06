@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | Time tracking dashboard</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="report">
+    <div class="profile">
+      <div class="user">
+        <img src="images/image-jeremy.png" alt="jeremy">
+        <div class="user-data">
+          <div class="rf">Report for</div>
+          <div class="user-name">Jeremy Robson</div>
+        </div>
+      </div>
+      <div class="scroll-bar">
+        <div class="daily">Daily</div>
+        <div class="weekly">Weekly</div>
+        <div class="monthly">Monthly</div>
+      </div>
+    </div>
+    <div class="work">
+      <div class="img">
+        <img src="images/icon-work.svg" alt="">
+      </div>
+      <div class="under-img">
+        <div class="left">
+          <div class="title">Work</div>
+          <div class="duration"></div>
+        </div>
+        <div class="right">
+          <div class="dots">
+            <img src="images/icon-ellipsis.svg" alt="dots">
+          </div>
+          <div class="previous"></div>
+        </div>
+      </div>
+    </div>
+    <div class="play">
+      <div class="img">
+        <img src="images/icon-play.svg" alt="">
+      </div>
+      <div class="under-img">
+        <div class="left">
+          <div class="title">Play</div>
+          <div class="duration"></div>
+        </div>
+        <div class="right">
+          <div class="dots">
+            <img src="images/icon-ellipsis.svg" alt="dots">
+          </div>
+          <div class="previous">Last Month</div>
+        </div>
+      </div>
+    </div>
+    <div class="study">
+      <div class="img">
+        <img src="images/icon-study.svg" alt="">
+      </div>
+      <div class="under-img">
+        <div class="left">
+          <div class="title">Study</div>
+          <div class="duration"></div>
+        </div>
+        <div class="right">
+          <div class="dots">
+            <img src="images/icon-ellipsis.svg" alt="dots">
+          </div>
+          <div class="previous">Last Month</div>
+        </div>
+      </div>
+    </div>
+    <div class="exercise">
+      <div class="img">
+        <img src="images/icon-exercise.svg" alt="">
+      </div>
+      <div class="under-img">
+        <div class="left">
+          <div class="title">Exercise</div>
+          <div class="duration"></div>
+        </div>
+        <div class="right">
+          <div class="dots">
+            <img src="images/icon-ellipsis.svg" alt="dots">
+          </div>
+          <div class="previous">Last Month</div>
+        </div>
+      </div>
+    </div>
+    <div class="social">
+      <div class="img">
+        <img src="images/icon-social.svg" alt="">
+      </div>
+      <div class="under-img">
+        <div class="left">
+          <div class="title">Social</div>
+          <div class="duration"></div>
+        </div>
+        <div class="right">
+          <div class="dots">
+            <img src="images/icon-ellipsis.svg" alt="dots">
+          </div>
+          <div class="previous">Last Month</div>
+        </div>
+      </div>
+    </div>
+    <div class="self-care">
+      <div class="img">
+        <img src="images/icon-self-care.svg" alt="">
+      </div>
+      <div class="under-img">
+        <div class="left">
+          <div class="title">Self Care</div>
+          <div class="duration"></div>
+        </div>
+        <div class="right">
+          <div class="dots">
+            <img src="images/icon-ellipsis.svg" alt="dots">
+          </div>
+          <div class="previous">Last Month</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Yahya Zahouani</a>.
+  </div>
+</body>
+<script 
+src="https://code.jquery.com/jquery-3.6.0.js"
+integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+crossorigin="anonymous">
+</script>
+<script src="data.json"></script>
+<script src="logic.js"></script>
+</html>
