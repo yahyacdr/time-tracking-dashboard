@@ -640,6 +640,12 @@ body {
     }
 }
 @media (min-width: 1600px) and (min-height: 795px) /* responsive */ {
+    html {
+        font-size: 14px;
+    }
+    .under-img .right .dots {
+        width: 150%;
+    }
 }
 @media (min-width: 1920px) and (min-height: 1080px) /* responsive */ {
     html {
@@ -652,6 +658,9 @@ body {
     .img {
         width: 98.5%;
         right: 1%;
+    }
+    .under-img .right .dots {
+        width: 150%;
     }
 }
 @media (min-width: 2560px) and (min-height: 1080px) /* responsive */ {
